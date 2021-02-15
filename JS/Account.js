@@ -1,11 +1,11 @@
-class Account
+class Account 
 {
-    constructor()
+    constructor(name, document) 
     {
-    this.id;
-    this.name;
-    this.document;
-    this.email;
-    this.password;
+        this.id;
+        this.name = name;
+        this.document = document;
+        this.email;
+        this.password;
     }
 }
