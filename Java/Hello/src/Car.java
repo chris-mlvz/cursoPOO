@@ -3,7 +3,7 @@ class Car
     private Integer id;
     private String license;
     private Account driver;
-    private Integer passengers;
+    protected Integer passengers;
 
     public Car(String license, Account driver)
     {

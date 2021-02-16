@@ -6,7 +6,6 @@ class UberVan extends Car
     Map<String, Map<String,Integer>> typeCarAccepted;
     ArrayList<String> seatsMaterial;
     String model;
-    private Integer passengers;
 
     public UberVan(String license, Account driver)
     {
